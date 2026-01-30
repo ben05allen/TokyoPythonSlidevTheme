@@ -1,8 +1,11 @@
 <script setup lang="ts">
-defineProps<{
-  topImage?: string;
-  bottomImage?: string;
-}>();
+withDefaults(defineProps<{
+  topImage?: string
+  bottomImage?: string
+}>(), {
+  topImage: '/Python-Red.webp',
+  bottomImage: '/Tokyo-Background.webp',
+})
 </script>
 
 <template>

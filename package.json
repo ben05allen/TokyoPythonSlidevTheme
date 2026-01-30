@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "Theme for Tokyo Python Meetup",
   "main": "index.js",
+  "files": [
+    "layouts",
+    "styles",
+    "setup",
+    "public"
+  ],
   "scripts": {
     "dev": "slidev",
     "build": "slidev build",
