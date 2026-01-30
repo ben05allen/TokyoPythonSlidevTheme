@@ -1,11 +1,8 @@
 ---
 theme: ./
----
-
----
+transition: slide-left
+mdc: true
 layout: title
-topImage: /Python-Red.webp
-bottomImage: /Tokyo-Background.webp
 ---
 
 # Tokyo Python Meetup
@@ -40,3 +37,35 @@ You can also run it directly from your terminal:
 pyjoke
 ```
 ---
+
+# Lists Demonstration
+
+Here is how lists look in this theme.
+
+### Ordered List
+1. First item
+2. Second item
+
+### Unordered List
+- Bullet point one
+- Bullet point two
+
+### Blockquote
+> "Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex."
+> — The Zen of Python
+
+### Test Link
+Learn more about [Tokyo Python Meetup](https://www.tokyopython.com)
+
+---
+
+# Test Quotes
+
+You can quote me on this:
+
+<div v-click>
+
+> When I told my parents I wanted to be a comedian they just laughed. Well, they're not laughing now!
+
+</div>
+
