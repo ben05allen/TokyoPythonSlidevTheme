@@ -1,0 +1,28 @@
+{
+  "name": "slidev-theme-tokyo-python",
+  "version": "1.0.0",
+  "description": "Theme for Tokyo Python Meetup",
+  "main": "index.js",
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "author": "",
+  "license": "ISC",
+  "slidev": {
+    "theme": {
+      "colorSchema": "dark",
+      "highlighter": "prism"
+    }
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.43.0",
+    "@slidev/client": "^0.43.0"
+  },
+  "type": "commonjs"
+}
