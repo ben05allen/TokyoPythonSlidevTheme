@@ -1,1 +1,101 @@
 /* base.css */
+:root {
+  --slidev-font-family:
+    "Calibri", "Candara", "Segoe", "Segoe UI", "Optima", "Arial", sans-serif;
+  --slidev-code-font-family:
+    "JetBrainsMono Nerd Font Mono", "JetBrains Mono", "Fira Code", "Consolas",
+    "Courier New", monospace;
+  --tokyo-red: #f12e24;
+  --tokyo-gray: #4b5563;
+  --tokyo-light-gray: #f3f4f6;
+}
+
+html,
+body,
+#app,
+.slidev-layout {
+  font-family: var(--slidev-font-family);
+}
+
+.slidev-layout {
+  padding: 3rem;
+}
+
+/* Ensure the title slide (which has its own padding/layout) isn't double-padded or misaligned */
+.slidev-layout.title-slide {
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-family: var(--slidev-font-family);
+  color: var(--tokyo-red);
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--slidev-font-family);
+  color: var(--tokyo-gray);
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 1.15;
+  margin-bottom: 0.625rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1.125rem;
+}
+
+/* Code block styling */
+code,
+kbd,
+pre,
+samp {
+  font-family: var(--slidev-code-font-family) !important;
+  font-size: 0.875em;
+}
+
+/* Inline code specifically */
+:not(pre) > code {
+  background-color: var(--tokyo-light-gray);
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.25rem;
+}
+
+/* Adjust paragraph margins for tighter spacing */
+p {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.slidev-code {
+  background-color: var(--tokyo-light-gray) !important;
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  margin: 0.25rem 0 !important;
+}
