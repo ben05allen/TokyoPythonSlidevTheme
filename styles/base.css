@@ -8,6 +8,7 @@
   --tokyo-red: #f12e24;
   --tokyo-gray: #4b5563;
   --tokyo-light-gray: #f3f4f6;
+  --tokyo-purple: #8b5cf6;
 }
 
 html,
@@ -126,6 +127,17 @@ body,
 
 .slidev-layout blockquote p {
   margin-bottom: 0;
+}
+
+/* Hyperlink Styling */
+.slidev-layout a {
+  color: var(--tokyo-purple);
+  text-decoration: underline;
+  transition: opacity 0.2s;
+}
+
+.slidev-layout a:hover {
+  opacity: 0.8;
 }
 
 .slidev-code {
