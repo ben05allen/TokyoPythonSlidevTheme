@@ -1,10 +1,13 @@
 <script setup lang="ts">
+import defaultTopImage from '../public/Python-Red.webp'
+import defaultBottomImage from '../public/Tokyo-Background.webp'
+
 withDefaults(defineProps<{
   topImage?: string
   bottomImage?: string
 }>(), {
-  topImage: '/Python-Red.webp',
-  bottomImage: '/Tokyo-Background.webp',
+  topImage: defaultTopImage,
+  bottomImage: defaultBottomImage,
 })
 </script>
 
